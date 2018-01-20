@@ -1,0 +1,52 @@
+
+<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+<style>
+  .red-text {
+    color: red;
+  }
+  .gold-text{
+      color:gold;
+  }
+  h2 {
+    font-family: Lobster, Monospace;
+  }
+  p {
+    font-size: 16px;
+    font-family: Monospace;
+  }
+  .thick-purple-border {
+    border-color: purple;
+    border-width: 7px;
+    border-style: solid;
+    border-radius: 50%;
+  }
+  .smaller-image {
+    width: 200px;
+  }
+</style>
+
+<h2 class="gold-text">Fassoss App</h2>
+
+<p><a href="#">We’ve wrapped goodness in exciting new bites. Come along.</a>.</p>
+
+<a href="#"><img class="smaller-image thick-purple-border" alt="Faasoss logo " src="https://assets.faasos.io/order.faasos.io/production/app/public/images/faasos-logo-yellow.svg"></a>
+
+<p>Our bestselling menu:</p>
+<ul>
+  <li><label><input type="checkbox" name="menu">Aloo Paratha Chole Combo</label><p><a href="#"><img class="smaller-image thick-purple-border" alt="Faasoss logo " src="https://assets.faasos.io/order.faasos.io/production/app/public/images/newFlavours-AlooParathaChole.png"></a></p></li>
+  <li><label><input type="checkbox" name="menu">Signature Rice Feast: Paneer</label><p><a href="#"><img class="smaller-image thick-purple-border" alt="Faasoss logo " src="https://assets.faasos.io/order.faasos.io/production/app/public/images/newFlavours-SignatureRiceFeastPaneer.png"></a></p></li>
+  <li><label><input type="checkbox" name="menu">Exotic Veggies in Sunset Milano</label><p><a href="#"><img class="smaller-image thick-purple-border" alt="Faasoss logo " src="https://assets.faasos.io/order.faasos.io/production/app/public/images/newFlavours-ExoticVeggiesInSunsetMilano.png"></a></p></li>
+</ul>
+
+<form action="/mode-of-payment">
+    <p>Mode of payment:</p>
+<ol>
+  <li>PayTM<label><input type="radio" name="mop" required></label></li>
+  <li>Credit/Debit Card<label><input type="radio" name="mop" required></label></li>
+  <li>COD<label><input type="radio" name="mop" required></label></li>
+</ol>
+    <input type="text" placeholder="Mobile no." required>
+    <input type="text" placeholder="Name" required>
+    <input type="text" placeholder="Delivery Address" required>
+    <p><button type="submit">Proceed to check-out</button></p>
+</form>
